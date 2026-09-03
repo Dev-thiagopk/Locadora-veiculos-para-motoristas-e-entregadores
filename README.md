@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  🚧 Em desenvolvimento
+  🚧 <strong>Em desenvolvimento</strong>
 </p>
 
 ---
@@ -18,7 +18,7 @@
 | **Curso** | Análise e Desenvolvimento de Sistemas |
 | **Disciplina** | Projeto Integrado em Programação Web |
 | **Orientador** | Profº Hudson Neves |
-| **Projeto** | CarLog |
+| **Projeto** | CarLog — Sistema de Locação de Veículos |
 | **Status** | Em desenvolvimento |
 
 ---
@@ -27,7 +27,7 @@
 
 O **CarLog** é um sistema de locação de veículos desenvolvido com foco em **motoristas e entregadores**.
 
-A proposta do projeto é oferecer uma solução que auxilie no processo de locação de veículos, proporcionando uma plataforma organizada e de fácil utilização.
+A proposta do projeto é oferecer uma solução que auxilie no processo de locação de veículos, proporcionando uma plataforma organizada, funcional e de fácil utilização.
 
 O sistema está sendo desenvolvido como parte da disciplina **Projeto Integrado em Programação Web**, aplicando os conhecimentos adquiridos durante o curso de Análise e Desenvolvimento de Sistemas.
 
@@ -37,25 +37,25 @@ O sistema está sendo desenvolvido como parte da disciplina **Projeto Integrado 
 
 ### Objetivo Geral
 
-Desenvolver um sistema de locação de veículos destinado a **motoristas e entregadores**, buscando facilitar o acesso e o gerenciamento das informações relacionadas à locação.
+Desenvolver um sistema de locação de veículos voltado para **motoristas e entregadores**, facilitando o processo de acesso e gerenciamento das informações relacionadas à locação.
 
 ### Objetivos Específicos
 
-- Desenvolver uma interface de utilização simples e intuitiva;
 - Facilitar o processo de locação de veículos;
-- Organizar as informações relacionadas ao sistema;
+- Organizar as informações relacionadas aos veículos;
+- Desenvolver uma interface simples e intuitiva;
 - Aplicar conhecimentos de desenvolvimento web;
-- Desenvolver uma solução voltada às necessidades de motoristas e entregadores.
+- Criar uma solução voltada para motoristas e entregadores.
 
-### Problema que o sistema busca resolver
+### Problema que o Sistema Resolve
 
-O CarLog busca solucionar a dificuldade de organização e acesso ao processo de locação de veículos para pessoas que necessitam de um veículo para realizar atividades profissionais como **transporte e entregas**.
+O CarLog busca facilitar e organizar o processo de locação de veículos para pessoas que utilizam automóveis para atividades profissionais, principalmente **motoristas e entregadores**.
 
 ### Público-alvo
 
 - Motoristas;
 - Entregadores;
-- Usuários interessados na locação de veículos.
+- Pessoas interessadas em realizar a locação de veículos.
 
 ---
 
@@ -63,14 +63,16 @@ O CarLog busca solucionar a dificuldade de organização e acesso ao processo de
 
 As funcionalidades do sistema estão em desenvolvimento.
 
-- Cadastro de usuários;
-- Cadastro de veículos;
-- Consulta de veículos;
-- Processo de locação;
-- Gerenciamento das informações relacionadas aos veículos;
-- Gerenciamento das informações relacionadas aos usuários.
+- [ ] Cadastro de usuários;
+- [ ] Login de usuários;
+- [ ] Cadastro de veículos;
+- [ ] Consulta de veículos disponíveis;
+- [ ] Locação de veículos;
+- [ ] Gerenciamento de veículos;
+- [ ] Gerenciamento de usuários;
+- [ ] Histórico de locações.
 
-> **Observação:** as funcionalidades poderão ser atualizadas conforme o andamento do projeto.
+> As funcionalidades poderão ser atualizadas conforme o desenvolvimento do projeto.
 
 ---
 
@@ -101,35 +103,38 @@ As funcionalidades do sistema estão em desenvolvimento.
 
 ## 🏗️ 5. Arquitetura da Solução
 
-A arquitetura completa do sistema ainda está em desenvolvimento.
+A arquitetura completa da aplicação ainda está em desenvolvimento.
 
-### Estrutura prevista
+A estrutura atual do projeto está organizada considerando as tecnologias utilizadas na aplicação:
 
 ```text
-┌─────────────────────────────────────┐
-│              CARLOG                 │
-│      Sistema de Locação             │
-│          de Veículos                │
-└──────────────────┬──────────────────┘
-                   │
-                   ▼
-┌─────────────────────────────────────┐
-│             FRONT-END               │
-│                                     │
-│  HTML5  •  CSS3  •  JavaScript      │
-│  Spring Boot                         │
-└──────────────────┬──────────────────┘
-                   │
-                   ▼
-┌─────────────────────────────────────┐
-│             BACK-END                │
-│                                     │
-│       A ser definido pela equipe    │
-└──────────────────┬──────────────────┘
-                   │
-                   ▼
-┌─────────────────────────────────────┐
-│          BANCO DE DADOS             │
-│                                     │
-│       A ser definido pela equipe    │
-└─────────────────────────────────────┘
+                    ┌──────────────────────┐
+                    │       CARLOG         │
+                    │  Locação de Veículos │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │      FRONT-END       │
+                    ├──────────────────────┤
+                    │      HTML5            │
+                    │      CSS3             │
+                    │      JavaScript       │
+                    │      Spring Boot      │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │      BACK-END        │
+                    │                      │
+                    │ A ser definido pela  │
+                    │       equipe         │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │   BANCO DE DADOS     │
+                    │                      │
+                    │ A ser definido pela  │
+                    │       equipe         │
+                    └──────────────────────┘
