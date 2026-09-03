@@ -1,8 +1,6 @@
-# 🚗 CarLog — Sistema de Locação de Veículos
+# 🚗 CarLog
 
-Sistema desenvolvido com o objetivo de facilitar a locação de veículos para motoristas e entregadores, permitindo uma futura integração entre usuários e veículos disponíveis para aluguel.
-
-> 🚧 **Status do projeto:** Em desenvolvimento
+Sistema de locação de veículos desenvolvido para motoristas e entregadores.
 
 ---
 
@@ -15,50 +13,51 @@ Sistema desenvolvido com o objetivo de facilitar a locação de veículos para m
 | **Disciplina** | Projeto Integrado em Programação Web |
 | **Orientador** | Profº Hudson Neves |
 | **Projeto** | CarLog |
+| **Status** | Em desenvolvimento |
 
 ---
 
 ## 📋 Descrição
 
-O **CarLog** é um projeto acadêmico voltado para o desenvolvimento de um sistema de locação de veículos destinado principalmente a **motoristas e entregadores**.
+O **CarLog** é um sistema de locação de veículos desenvolvido com o objetivo de facilitar o acesso a veículos para **motoristas e entregadores**.
 
-A proposta é desenvolver uma plataforma que facilite o processo de locação, permitindo uma organização mais eficiente das informações relacionadas aos veículos e aos usuários.
+A proposta do projeto é criar uma plataforma que possibilite a organização e o gerenciamento do processo de locação de veículos, proporcionando uma experiência simples e intuitiva para os usuários.
 
-O projeto está atualmente em fase de desenvolvimento e poderá receber novas funcionalidades ao longo de sua construção.
+O projeto está em fase de desenvolvimento e poderá receber novas funcionalidades durante sua implementação.
 
 ---
 
 ## 🎯 Objetivos
 
-O principal objetivo do CarLog é desenvolver uma solução para **locação de veículos para motoristas e entregadores**.
+### Objetivo Geral
 
-Entre os objetivos do projeto estão:
+Desenvolver um sistema de locação de veículos voltado para motoristas e entregadores.
 
-- Facilitar o processo de locação de veículos;
+### Objetivos Específicos
+
+- Facilitar a busca por veículos disponíveis;
 - Organizar as informações dos veículos;
-- Melhorar a experiência dos usuários;
-- Desenvolver uma interface simples e intuitiva;
-- Aplicar conhecimentos adquiridos durante o curso;
-- Desenvolver uma aplicação utilizando tecnologias web.
+- Facilitar o processo de locação;
+- Criar uma interface simples e intuitiva;
+- Aplicar conhecimentos de programação web;
+- Desenvolver uma solução funcional para o problema proposto.
 
 ---
 
 ## ⚙️ Funcionalidades
 
-As funcionalidades estão sendo desenvolvidas pela equipe.
-
-### Funcionalidades planejadas
+As funcionalidades do sistema estão em desenvolvimento.
 
 - [ ] Cadastro de usuários;
+- [ ] Login de usuários;
 - [ ] Cadastro de veículos;
 - [ ] Consulta de veículos disponíveis;
-- [ ] Processo de locação;
+- [ ] Locação de veículos;
 - [ ] Gerenciamento de veículos;
 - [ ] Gerenciamento de usuários;
-- [ ] Sistema de login;
-- [ ] Integração entre Front-end e Back-end.
+- [ ] Histórico de locações.
 
-> Novas funcionalidades poderão ser adicionadas durante o desenvolvimento do projeto.
+> As funcionalidades poderão ser alteradas ou ampliadas durante o desenvolvimento do projeto.
 
 ---
 
@@ -66,9 +65,10 @@ As funcionalidades estão sendo desenvolvidas pela equipe.
 
 ### Front-end
 
-- **HTML5** — estrutura das páginas da aplicação;
+- **HTML5** — estrutura e organização das páginas;
 - **CSS3** — estilização, layout e responsividade;
-- **JavaScript** — interações e funcionalidades da interface.
+- **JavaScript** — interatividade e funcionalidades da interface;
+- **Spring Boot** — tecnologia utilizada no desenvolvimento da aplicação.
 
 ### Back-end
 
@@ -82,18 +82,55 @@ As funcionalidades estão sendo desenvolvidas pela equipe.
 
 ## 🏗️ Arquitetura
 
-O projeto está estruturado inicialmente da seguinte forma:
+O projeto está sendo estruturado de acordo com as tecnologias definidas pela equipe.
 
-```text
-CarLog
-│
-├── Front-end
-│   ├── HTML5
-│   ├── CSS3
-│   └── JavaScript
-│
-├── Back-end
-│   └── A ser definido pela equipe
-│
-└── Banco de Dados
-    └── A ser definido pela equipe
+### Front-end
+
+- HTML5
+- CSS3
+- JavaScript
+- Spring Boot
+
+### Back-end
+
+- A ser definido pela equipe.
+
+### Banco de Dados
+
+- A ser definido pela equipe.
+
+---
+
+## 🗄️ Modelagem do Banco de Dados
+
+A modelagem do banco de dados ainda está em desenvolvimento.
+
+**A ser definido pela equipe.**
+
+---
+
+## 🔌 API
+
+A API do sistema ainda está em desenvolvimento.
+
+**A ser definido pela equipe.**
+
+---
+
+## 📋 Pré-requisitos
+
+Para executar o projeto, será necessário possuir:
+
+- Navegador web atualizado;
+- Visual Studio Code ou outro editor de código;
+- Git;
+- Requisitos adicionais que serão definidos conforme o desenvolvimento do projeto.
+
+---
+
+## 🚀 Instalação
+
+### 1. Clonar o repositório
+
+```bash
+git clone https://github.com/guilhe929/CarLog.git
