@@ -1,6 +1,12 @@
-# 🚗 CarLog
+# 🚗 CarLog — Sistema de Locação de Veículos
 
-Sistema de locação de veículos desenvolvido para motoristas e entregadores.
+<p align="center">
+  <strong>Sistema de locação de veículos para motoristas e entregadores</strong>
+</p>
+
+<p align="center">
+  🚧 Em desenvolvimento
+</p>
 
 ---
 
@@ -17,120 +23,113 @@ Sistema de locação de veículos desenvolvido para motoristas e entregadores.
 
 ---
 
-## 📋 Descrição
+## 📋 1. Descrição do Projeto
 
-O **CarLog** é um sistema de locação de veículos desenvolvido com o objetivo de facilitar o acesso a veículos para **motoristas e entregadores**.
+O **CarLog** é um sistema de locação de veículos desenvolvido com foco em **motoristas e entregadores**.
 
-A proposta do projeto é criar uma plataforma que possibilite a organização e o gerenciamento do processo de locação de veículos, proporcionando uma experiência simples e intuitiva para os usuários.
+A proposta do projeto é oferecer uma solução que auxilie no processo de locação de veículos, proporcionando uma plataforma organizada e de fácil utilização.
 
-O projeto está em fase de desenvolvimento e poderá receber novas funcionalidades durante sua implementação.
+O sistema está sendo desenvolvido como parte da disciplina **Projeto Integrado em Programação Web**, aplicando os conhecimentos adquiridos durante o curso de Análise e Desenvolvimento de Sistemas.
 
 ---
 
-## 🎯 Objetivos
+## 🎯 2. Objetivos
 
 ### Objetivo Geral
 
-Desenvolver um sistema de locação de veículos voltado para motoristas e entregadores.
+Desenvolver um sistema de locação de veículos destinado a **motoristas e entregadores**, buscando facilitar o acesso e o gerenciamento das informações relacionadas à locação.
 
 ### Objetivos Específicos
 
-- Facilitar a busca por veículos disponíveis;
-- Organizar as informações dos veículos;
-- Facilitar o processo de locação;
-- Criar uma interface simples e intuitiva;
-- Aplicar conhecimentos de programação web;
-- Desenvolver uma solução funcional para o problema proposto.
+- Desenvolver uma interface de utilização simples e intuitiva;
+- Facilitar o processo de locação de veículos;
+- Organizar as informações relacionadas ao sistema;
+- Aplicar conhecimentos de desenvolvimento web;
+- Desenvolver uma solução voltada às necessidades de motoristas e entregadores.
+
+### Problema que o sistema busca resolver
+
+O CarLog busca solucionar a dificuldade de organização e acesso ao processo de locação de veículos para pessoas que necessitam de um veículo para realizar atividades profissionais como **transporte e entregas**.
+
+### Público-alvo
+
+- Motoristas;
+- Entregadores;
+- Usuários interessados na locação de veículos.
 
 ---
 
-## ⚙️ Funcionalidades
+## ⚙️ 3. Principais Funcionalidades
 
 As funcionalidades do sistema estão em desenvolvimento.
 
-- [ ] Cadastro de usuários;
-- [ ] Login de usuários;
-- [ ] Cadastro de veículos;
-- [ ] Consulta de veículos disponíveis;
-- [ ] Locação de veículos;
-- [ ] Gerenciamento de veículos;
-- [ ] Gerenciamento de usuários;
-- [ ] Histórico de locações.
+- Cadastro de usuários;
+- Cadastro de veículos;
+- Consulta de veículos;
+- Processo de locação;
+- Gerenciamento das informações relacionadas aos veículos;
+- Gerenciamento das informações relacionadas aos usuários.
 
-> As funcionalidades poderão ser alteradas ou ampliadas durante o desenvolvimento do projeto.
+> **Observação:** as funcionalidades poderão ser atualizadas conforme o andamento do projeto.
 
 ---
 
-## 💻 Tecnologias
+## 💻 4. Tecnologias Utilizadas
 
 ### Front-end
 
-- **HTML5** — estrutura e organização das páginas;
-- **CSS3** — estilização, layout e responsividade;
-- **JavaScript** — interatividade e funcionalidades da interface;
-- **Spring Boot** — tecnologia utilizada no desenvolvimento da aplicação.
+| Tecnologia | Utilização |
+|---|---|
+| **HTML5** | Estrutura das páginas e elementos da aplicação |
+| **CSS3** | Estilização, layout e organização visual |
+| **JavaScript** | Interações e funcionalidades da interface |
+| **Spring Boot** | Tecnologia utilizada no desenvolvimento do projeto |
 
 ### Back-end
 
-- **A ser definido pela equipe.**
+**A ser definido pela equipe.**
 
 ### Banco de Dados
 
-- **A ser definido pela equipe.**
+**A ser definido pela equipe.**
 
----
-
-## 🏗️ Arquitetura
-
-O projeto está sendo estruturado de acordo com as tecnologias definidas pela equipe.
-
-### Front-end
-
-- HTML5
-- CSS3
-- JavaScript
-- Spring Boot
-
-### Back-end
-
-- A ser definido pela equipe.
-
-### Banco de Dados
-
-- A ser definido pela equipe.
-
----
-
-## 🗄️ Modelagem do Banco de Dados
-
-A modelagem do banco de dados ainda está em desenvolvimento.
+### Frameworks e Bibliotecas
 
 **A ser definido pela equipe.**
 
 ---
 
-## 🔌 API
+## 🏗️ 5. Arquitetura da Solução
 
-A API do sistema ainda está em desenvolvimento.
+A arquitetura completa do sistema ainda está em desenvolvimento.
 
-**A ser definido pela equipe.**
+### Estrutura prevista
 
----
-
-## 📋 Pré-requisitos
-
-Para executar o projeto, será necessário possuir:
-
-- Navegador web atualizado;
-- Visual Studio Code ou outro editor de código;
-- Git;
-- Requisitos adicionais que serão definidos conforme o desenvolvimento do projeto.
-
----
-
-## 🚀 Instalação
-
-### 1. Clonar o repositório
-
-```bash
-git clone https://github.com/guilhe929/CarLog.git
+```text
+┌─────────────────────────────────────┐
+│              CARLOG                 │
+│      Sistema de Locação             │
+│          de Veículos                │
+└──────────────────┬──────────────────┘
+                   │
+                   ▼
+┌─────────────────────────────────────┐
+│             FRONT-END               │
+│                                     │
+│  HTML5  •  CSS3  •  JavaScript      │
+│  Spring Boot                         │
+└──────────────────┬──────────────────┘
+                   │
+                   ▼
+┌─────────────────────────────────────┐
+│             BACK-END                │
+│                                     │
+│       A ser definido pela equipe    │
+└──────────────────┬──────────────────┘
+                   │
+                   ▼
+┌─────────────────────────────────────┐
+│          BANCO DE DADOS             │
+│                                     │
+│       A ser definido pela equipe    │
+└─────────────────────────────────────┘
